@@ -19,7 +19,7 @@ public class MoodAnalyserTest {
         System.out.println(mood);
         Assertions.assertEquals("HAPPY", mood);
     }*/
-
+//test case1
     @Test
     public void givenMessage_WhenProper_ShouldReturnSad() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in sad mood");
